@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+	background-image: url("../slike/kocke.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#naslov {
+    
+    text-align: center;
+    margin: auto;
+    width: 60%;
+	color: red;
+	font-size:25px
+}
+
+#glavni {
+    margin: 20%;
+    position: relative;
+    text-align: center;
+    width: 60%;
+    
+
+}
+
+form {}
+
+#igrac {
+    width: 100%;
+    display: flex; /* or inline-flex */
+    /*background: purple;*/
+    justify-content:center;
+	color:red;
+	font-size: 150%;
+}
+input{
+	width:150px;
+	height:40px;
+	margin: 10px;
+	border-radius:10px;
+	font-size: 150%;
+}
+.igralec {
+	color: white;
+    min-height: 80px;
+    width: 100%;
+    
+
+}
+
+#izbira {
+    
+    text-align: center;
+	color: white;
+}
+#igrac1 {
+	padding-top: 350px;
+    width: 100%;
+    display: flex; /* or inline-flex */
+    /*background: purple;*/
+    justify-content:center;
+	color:red;
+	font-size: 250%;
+}
